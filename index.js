@@ -9,7 +9,7 @@ class Polygon {
   
   get perimeter() {
     const sum = (total, side) => {return total + side};
-    retutn this.sides.reduce(sum);
+    return this.sides.reduce(sum);
   }
 }
 
@@ -30,3 +30,4 @@ class Square extends Polygon {
     return side ** 2;
   }
 }
+
